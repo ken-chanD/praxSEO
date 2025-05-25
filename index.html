@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    
+    img-src 'self' https:;
+    script-src 'self' 
+      https://www.googletagmanager.com 
+      https://cdn.jsdelivr.net;
+      
+    style-src 'self' 
+      https://fonts.googleapis.com 
+      https://cdn.jsdelivr.net;
+      
+    font-src 
+      https://fonts.gstatic.com 
+      https://cdn.jsdelivr.net;
+
+    form-action 
+      https://formspree.io;
+
+    frame-src 
+      https://www.youtube.com 
+      https://player.vimeo.com;
+
+    connect-src 'self';
+  ">
+  <meta name="theme-color" content="#111827"> <!-- gris oscuro -->
+  <meta name="google-site-verification" content="verification_token"> <!-- Google Search Console -->
+  <meta name="google" content="notranslate">
+  <meta name="description" content="Servicios SEO local para negocios pequeños. Aumenta tu visibilidad en Google.">
+  <title>praxSEO</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" sizes="192x192" href="./images/icons/logo (1).svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <header>
+    <nav>
+      <svg
+        id="menuToggle"
+        class="menu-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        width="38"
+        height="38"
+        viewBox="0 0 50 50"
+        fill="white"
+        cursor="pointer"
+        >
+        <circle cx="8" cy="25" r="5" />
+        <circle cx="25" cy="25" r="5" />
+        <circle cx="42" cy="25" r="5" />
+      </svg>
+
+    </nav>
+    <h1 class="hero-title">Wir machen <strong> <br />
+        Ihre Praxis</strong> <br />sichtbar!</h1>
+  </header>
+
+  <main>
+    <section id="logo">
+      <p>Wie? Lernen Sie uns kennen!</p>
+      <!-- HTML -->
+      <div class="arrow-icon">
+        <svg width="32" height="48" viewBox="0 0 24 32">
+          <path d="M 12 -3 V 28 M 12 28 L 8 21 M 12 28 L 16 21"
+          stroke="#1f6feb"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round" />
+        </svg>
+
+      </div>
+      <div id="logoNew">
+        <p>praxSEO</p>
+      </div>
+    </section>
+
+    <p class="btn-title">Unverbindlichen Termin hier</p>
+    <div class="arrow-icon">
+      <svg width="32" height="48" viewBox="0 0 24 32" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 12 -3 V 28 M 12 28 L 8 21 M 12 28 L 16 21" 
+        stroke="#1f6feb" stroke-width="2" 
+        stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+    <button id="termin-btn">Termin</button>
+
+  </main>
+
+  <section id="contact">
+    <img src="./images/icons/instagram.svg" alt="">
+    <img src="./images/icons/whatsapp.svg" alt="">
+    <img src="./images/icons/x.svg" alt="">
+  </section>
+
+  <footer>
+    <div class="info-footer">
+      <p>Impressum</p>
+      <p>Datenschutzerklärung</p>
+    </div>
+    <p>© 2025 praxSEO | Alle Rechte vorbehalten.</p>
+  </footer>
+
+</body>
+</html>
